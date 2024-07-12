@@ -30,6 +30,7 @@ seeds:
 
 models:
   jaffle_shop:
+    +schema: arch_dbt
     staging:
       +materialized: view
     marts:
