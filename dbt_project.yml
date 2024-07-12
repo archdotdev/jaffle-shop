@@ -29,8 +29,8 @@ seeds:
     +schema: raw
 
 models:
+  +schema: arch_dbt
   jaffle_shop:
-    +schema: arch_dbt
     staging:
       +materialized: view
     marts:
